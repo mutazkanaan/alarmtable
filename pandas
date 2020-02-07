@@ -1,0 +1,4 @@
+import pandas as pd
+pd.set_option('display.max_rows',1000)
+t=pd.read_excel(r'd:\alarm.xlsx','sheet1',encoding='utf-6')
+t
